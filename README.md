@@ -2,11 +2,12 @@
 
 ## Dados upload entrada
   ### Request Params 
-  @RequestParam("arquivo") MultipartFile file,
+  @RequestParam("arquivo") MultipartFile file, -> arquivo
   
-  @RequestParam("tipoDoArquivo") String tipoDocumento,
+  @RequestParam("tipoDoArquivo") String tipoDocumento, -> tipo do arquivo Ex* identidade, licença e etc...
+ 
   
-  @RequestParam("localArmazenamento") int localArmazenamento
+  @RequestParam("localArmazenamento") int localArmazenamento -> opção de armazenamento
   
 ## Dados entrada Download
   ### Request Params 
