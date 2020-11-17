@@ -12,7 +12,7 @@
   ### Request Params 
 É verificado no BD, caso não exista verifica no storage
 
-  @RequestParam("arquivo") String arquivo
+  @RequestParam("arquivo") String arquivo -> nome do arquivo upado
   
 ## Opções validas para upload -> 
 localArmazenamento 1 - Banco de dados, localArmazenamento 2 - Storage
